@@ -1,0 +1,102 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e7dd;
+    color: #5e4635;
+    line-height: 1.6;
+}
+
+/* Estilo del header */
+header {
+    background-color: #8d5a41;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #f2b290;
+    font-size: 2.5rem;
+}
+
+/* Estilo de la navegación */
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #c69c72;
+    list-style: none;
+    padding: 15px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+nav ul li a:hover {
+    color: #40210f;
+}
+
+/* Estilos de las secciones */
+main {
+    padding: 20px;
+}
+
+main h2 {
+    color: #8d5a41;
+    margin-bottom: 15px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+main p, main ul {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+/* Responsivo */
+@media (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    main section {
+        flex: 1;
+        margin: 10px;
+    }
+}
